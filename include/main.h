@@ -8,4 +8,14 @@ struct Resources
 
     sf::Texture playerTexture;
     sf::Sprite playerSprite;
+
+    sf::Font blackChancery;
+
+    sf::Text playerPositionText;
+};
+
+struct Player
+{
+    float posX;
+    float posY;
 };
